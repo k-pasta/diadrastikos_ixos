@@ -80,7 +80,7 @@
 
 <p align="center">Εικόνες 6-8. Το τρισδιάστατο μοντέλο, εικόνες από την κατασκευή.</p>
 
-Η πρόσοψη χαράχτηκε με laser[\[10\]](#ftnt10), στο λογισμικό Lightburn.
+Η πρόσοψη χαράχτηκε με laser[^10], στο λογισμικό Lightburn.
 
 <table>
   <tr>
@@ -90,7 +90,7 @@
   </tr>
 </table>
 
-<p align="center"> Εικόνες 9-11. Το σχέδιο[\[11\]](#ftnt11) για το ένα από τα δύο μέρη, η τηλεδιάσκεψη στην οποία παρακολουθούσα το λέιζερ για λόγους ασφαλείας, η εικόνα πάνω στο όργανο. </p>
+<p align="center"> Εικόνες 9-11. Το σχέδιο για το ένα από τα δύο μέρη, η τηλεδιάσκεψη στην οποία παρακολουθούσα το λέιζερ για λόγους ασφαλείας, η εικόνα πάνω στο όργανο. </p>[^11]
 
 Στη συνέχεια σύνδεσα τα ποτενσιόμετρα και τα κουμπιά. Τα κουμπιά διακόπτουν την σύνδεση των sliders, σαν mute channel. Τα 4 sliders και τα 2 περιστρεφόμενα ποτενσιόμετρα είναι αθροιστικά 6, το μεγιστο που μπορεί να δεχτεί σαν είσοδο το arduino uno, όσον αφορά αναλογική είσοδο πληροφορίας, χωρίς την χρήση multiplexer. Μπροστά από τα κουμπιά έχω βάλει κομμάτια από ξύλο για να τους δώσω την αίσθηση κουμπιών παλιού κασετοφώνου, αλλά αυτό επιδέχεται βελτίωση ακόμα.
 
@@ -104,9 +104,9 @@
 
 <p align="center"> Εικόνες 12-14. Εικόνες από την σύνδεση των καλωδίων </p>
 
-Στη συνέχεια, έγραψα τον κώδικα για το arduino[\[12\]](#ftnt12), βασιζόμενος σε κάποιες δοκιμές που είχα κάνει πρίν κάποιους μήνες όταν πρωτοξεκίνησα να ασχολούμαι με την εργασία. Το ενδιαφέρον εδώ είναι πως ο κώδικας που παρήγαγε τα πιό αξιόπιστα αποτελέσματα ήταν αυτός που δεν χρησιμοποιούσε καμία βιβλιοθήκη για midi πληροφορία, αλλά μπορούσες να δείς με πολύ μεγάλη ακρίβεια τι πληροφορία στέλνει. Χρησιμοποίησα επίσης το πρόγραμμα MidiView για να μπορώ να βλέπω ακριβώς τι διαβάζει η κάρτα ήχου και να κάνω debugging.
+Στη συνέχεια, έγραψα τον κώδικα για το arduino[^12], βασιζόμενος σε κάποιες δοκιμές που είχα κάνει πρίν κάποιους μήνες όταν πρωτοξεκίνησα να ασχολούμαι με την εργασία. Το ενδιαφέρον εδώ είναι πως ο κώδικας που παρήγαγε τα πιό αξιόπιστα αποτελέσματα ήταν αυτός που δεν χρησιμοποιούσε καμία βιβλιοθήκη για midi πληροφορία, αλλά μπορούσες να δείς με πολύ μεγάλη ακρίβεια τι πληροφορία στέλνει. Χρησιμοποίησα επίσης το πρόγραμμα MidiView για να μπορώ να βλέπω ακριβώς τι διαβάζει η κάρτα ήχου και να κάνω debugging.
 
-Τέλος, έκανα κάποιες δοκιμές στο ableton, αλλά αποφάσισα να δοκιμάσω και το supercollider[\[13\]](#ftnt13) για την παραγωγή ήχου. To τελικό αποτέλεσμα είναι αρκετά πρωτόγονο, αλλά λειτουργεί. Αυτό που έχω προσπαθήσει να κάνω είναι καθένα από τα 6 ποτενσιόμετρα να παράγει ημιτονοειδή ήχο σε διαφορετικά φάσματα συχνοτήτων, και όλα μαζί να περνάνε από έναν μίκτη που δίνει ρυθμό μέσω ενός LFO. Πιο συγκεκριμένα, αυξομειώνει περιοδικά την ένταση καθε ήχου που παράγεται. Όπως φαίνεται και στα παραθέματα όπου παραθέτω όλες μου τις συνομιλίες (τουλάχιστον την τελική τους μορφή) χρησιμοποίησα εκτενώς το chatbot ChatGPT 3.5. Αξίζει να αναφέρω πως γενικά έχει πολλά να προσφέρει, αλλά η κατανόηση του για τον τρόπο λειτουργίας του SuperCollider είναι περιορισμένη. Συχνά προέκυπταν θέματα που δεν μπορούσε να λύσει το ίδιο και οι λύσεις ερχόταν από άλλες πηγές. Ήταν ωστόσο μία πολύ χρήσιμη, άμεσα-προσβάσιμη, αναξιόπιση πηγή.
+Τέλος, έκανα κάποιες δοκιμές στο ableton, αλλά αποφάσισα να δοκιμάσω και το supercollider[^13] για την παραγωγή ήχου. To τελικό αποτέλεσμα είναι αρκετά πρωτόγονο, αλλά λειτουργεί. Αυτό που έχω προσπαθήσει να κάνω είναι καθένα από τα 6 ποτενσιόμετρα να παράγει ημιτονοειδή ήχο σε διαφορετικά φάσματα συχνοτήτων, και όλα μαζί να περνάνε από έναν μίκτη που δίνει ρυθμό μέσω ενός LFO. Πιο συγκεκριμένα, αυξομειώνει περιοδικά την ένταση καθε ήχου που παράγεται. Όπως φαίνεται και στα παραθέματα όπου παραθέτω όλες μου τις συνομιλίες (τουλάχιστον την τελική τους μορφή) χρησιμοποίησα εκτενώς το chatbot ChatGPT 3.5. Αξίζει να αναφέρω πως γενικά έχει πολλά να προσφέρει, αλλά η κατανόηση του για τον τρόπο λειτουργίας του SuperCollider είναι περιορισμένη. Συχνά προέκυπταν θέματα που δεν μπορούσε να λύσει το ίδιο και οι λύσεις ερχόταν από άλλες πηγές. Ήταν ωστόσο μία πολύ χρήσιμη, άμεσα-προσβάσιμη, αναξιόπιση πηγή.
 
 Συμπεράσματα
 ------------
@@ -386,36 +386,24 @@ MIDIdef.cc(\\slider, {
 
 [^2]: Ολόκληρη η εργασία στον παρακάτω σύνδεσμο: [Aυτόματη Τηλεόραση!](https://www.google.com/url?q=https://docs.google.com/document/d/11a93RCtcfiBhp3YT43IR-p3pLmvEp51J0SZQeljQP-s/edit?usp%3Dsharing&sa=D&source=editors&ust=1695977985502163&usg=AOvVaw2lsdFvh1IGeL9zIOCN1Y_i)
 
-[^3]: (#ftnt_ref3) Παράδειγμα μιας έρευνας που εκκινεί από την υπόθεση πως οι εμμονικοί χαρακτήρες είναι εγγενώς καλλιτεχνικοί:
+[^3]: Παράδειγμα μιας έρευνας που εκκινεί από την υπόθεση πως οι εμμονικοί χαρακτήρες είναι εγγενώς καλλιτεχνικοί: Chatterjee, Anjan. "The neuropsychology of visual art: Conferring capacity." International review of neurobiology 74 (2006): 39-49.
 
-Chatterjee, Anjan. "The neuropsychology of visual art: Conferring capacity." International review of neurobiology 74 (2006): 39-49.
+[^4]: Μια έρευνα στις εργασιακές συνήθειες εργαζόμενων στην τέχνη συγκριτικά με εργαζόμενους γραφείου: Weber, Ryan. "The Artistic Worker Versus the White-collar Professional: Workaholism, Work/nonwork Interference and Enhancement, and Obsessive Compulsive Behavior in Two Samples." (2011).
 
-[^4]: (#ftnt_ref4) Μια έρευνα στις εργασιακές συνήθειες εργαζόμενων στην τέχνη συγκριτικά με εργαζόμενους γραφείου:
+[^5]: Ο οδηγός που διάβασα: Lehrman, Paul D., and Tim Tully. "What is MIDI?." (2017).
 
-Weber, Ryan. "The Artistic Worker Versus the White-collar Professional: Workaholism, Work/nonwork Interference and Enhancement, and Obsessive Compulsive Behavior in Two Samples." (2011).
+[^6]: Η σχολή ξυλουργικής οπου γνωρίζω αρκετό κόσμο: 3PA Formation. “Éducation, Formation, Insertion.” Accessed September 27, 2023. https://www.3paformation.fr/education-formation-insertion/.
 
-[^5]: (#ftnt_ref5)Ο οδηγός που διάβασα:
+[^7]: Παράδειγμα: Eli Fieldsteel. SuperCollider Tutorial: 9. MIDI, Part I. Accessed September 27, 2023. https://www.youtube.com/watch?v=Oz4KYZ9KLc0.
 
-Lehrman, Paul D., and Tim Tully. "What is MIDI?." (2017).
+[^8]: Crypto Museum “DIN.” Πρόσβαση 27 Σεπτεμβρίου, 2023. https://www.cryptomuseum.com/ref/conn/din/index.htm.
 
-[^6]: (#ftnt_ref6) Η σχολή ξυλουργικής οπου γνωρίζω αρκετό κόσμο:
+[^9]: Olivier Verdier COMMENT FAIRE UN TENON ET UNE MORTAISE AU CISEAU À BOIS. Πρόσβαση 27 Σεπτεμβρίου, 2023. https://www.youtube.com/watch?v=8S4HxV5KAEU.
 
-3PA Formation. “Éducation, Formation, Insertion.” Accessed September 27, 2023. https://www.3paformation.fr/education-formation-insertion/.
+[^10]: Συγκεκριμένα το laser διόδου: SCULPFUN S10
 
-[^7]: (#ftnt_ref7) Παράδειγμα:
+[^11]: Η εικόνα προέρχεται από εδώ: ameede.com. “Flower Border Vector Art G0000004 File Cdr and Dxf Free Vector Download for Laser Cut – Download Vector.” Πρόσβαση 27 Σεπτεμβρίου, 2023. https://www.ameede.com/flower-border-vector-art-g0000004-file-cdr-and-dxf-free-vector-download-for-laser-cut/.
 
-Eli Fieldsteel. SuperCollider Tutorial: 9. MIDI, Part I. Accessed September 27, 2023. https://www.youtube.com/watch?v=Oz4KYZ9KLc0.
+[^12]: Ολόκληρος ο κώδικας στα παραθέματα της εργασίας.
 
-[^8]: (#ftnt_ref8) Crypto Museum “DIN.” Πρόσβαση 27 Σεπτεμβρίου, 2023. https://www.cryptomuseum.com/ref/conn/din/index.htm.
-
-[^9]: (#ftnt_ref9) Olivier Verdier COMMENT FAIRE UN TENON ET UNE MORTAISE AU CISEAU À BOIS. Πρόσβαση 27 Σεπτεμβρίου, 2023. https://www.youtube.com/watch?v=8S4HxV5KAEU.
-
-[^10]: (#ftnt_ref10) Συγκεκριμένα το laser διόδου: SCULPFUN S10
-
-[^11]: (#ftnt_ref11) Η εικόνα προέρχεται από εδώ:
-
-ameede.com. “Flower Border Vector Art G0000004 File Cdr and Dxf Free Vector Download for Laser Cut – Download Vector.” Πρόσβαση 27 Σεπτεμβρίου, 2023. https://www.ameede.com/flower-border-vector-art-g0000004-file-cdr-and-dxf-free-vector-download-for-laser-cut/.
-
-[^12]: (#ftnt_ref12) Ολόκληρος ο κώδικας στα παραθέματα της εργασίας.
-
-[^13]: (#ftnt_ref13) Επίσης.
+[^13]: Επίσης
