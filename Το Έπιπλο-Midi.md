@@ -8,9 +8,11 @@
 
 Διδάσκοντες: Ιωάννης Ζάννος
 
-Το Έπιπλο-Midi
+* * *
 
-Πειραματισμοί με midi πληροφορία και ξυλουργική.
+#Το Έπιπλο-Midi
+
+##Πειραματισμοί με midi πληροφορία και ξυλουργική.
 
 ![](images/image8.jpg)
 
@@ -52,43 +54,49 @@
   </tr>
 </table>
 
-![](images/image6.png)![](images/image7.png)
-
-![](images/image14.jpg)
-
-![](images/image12.jpg)
-
-![](images/image10.jpg)
+<table>
+  <tr>
+    <td valign="top"><img src="images/image14.jpg"/></td>
+    <td valign="top"><img src="images/image12.jpg"/></td>
+    <td valign="top"><img src="images/image10.jpg"/></td>
+  </tr>
+</table>
 
 Εικόνες 1-5. Το έπιπλο που ενεπνευσε το σχέδιο, το τρισδιάστατο μοντέλο που σχεδίασα, εικόνες από την κατασκευή, το τελικό αποτέλεσμα
 
 Στη συνέχεια σχεδίασα και κατασκεύασα το Έπιπλο-Midi πάνω στον πάγκο εργασίας:
 
-![](images/image3.png)
-
-![](images/image13.jpg)
-
-![](images/image11.jpg)
+<table>
+  <tr>
+    <td valign="top"><img src="images/image3.jpg"/></td>
+    <td valign="top"><img src="images/image13.jpg"/></td>
+    <td valign="top"><img src="images/image11.jpg"/></td>
+  </tr>
+</table>
 
 Εικόνες 6-8. Το τρισδιάστατο μοντέλο, εικόνες από την κατασκευή.
 
 Η πρόσοψη χαράχτηκε με laser[\[10\]](#ftnt10), στο λογισμικό Lightburn.
 
-![](images/image2.png)
-
-![](images/image4.jpg)
-
-![](images/image5.jpg)
+<table>
+  <tr>
+    <td valign="top"><img src="images/image2.jpg"/></td>
+    <td valign="top"><img src="images/image4.jpg"/></td>
+    <td valign="top"><img src="images/image5.jpg"/></td>
+  </tr>
+</table>
 
 Εικόνες 9-11. Το σχέδιο[\[11\]](#ftnt11) για το ένα από τα δύο μέρη, η τηλεδιάσκεψη στην οποία παρακολουθούσα το λέιζερ για λόγους ασφαλείας, η εικόνα πάνω στο όργανο.
 
 Στη συνέχεια σύνδεσα τα ποτενσιόμετρα και τα κουμπιά. Τα κουμπιά διακόπτουν την σύνδεση των sliders, σαν mute channel. Τα 4 sliders και τα 2 περιστρεφόμενα ποτενσιόμετρα είναι αθροιστικά 6, το μεγιστο που μπορεί να δεχτεί σαν είσοδο το arduino uno, όσον αφορά αναλογική είσοδο πληροφορίας, χωρίς την χρήση multiplexer. Μπροστά από τα κουμπιά έχω βάλει κομμάτια από ξύλο για να τους δώσω την αίσθηση κουμπιών παλιού κασετοφώνου, αλλά αυτό επιδέχεται βελτίωση ακόμα.
 
-![](images/image15.jpg)
-
-![](images/image9.jpg)
-
-![](images/image1.jpg)
+<table>
+  <tr>
+    <td valign="top"><img src="images/image15.jpg"/></td>
+    <td valign="top"><img src="images/image9.jpg"/></td>
+    <td valign="top"><img src="images/image1.jpg"/></td>
+  </tr>
+</table>
 
 Εικόνες 12-14. Εικόνες από την σύνδεση των καλωδίων
 
