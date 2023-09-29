@@ -9,11 +9,9 @@
 
 Διδάσκοντες: Ιωάννης Ζάννος
 
-* * *
-
 # Το Έπιπλο-Midi
 
-## Πειραματισμοί με midi πληροφορία και ξυλουργική.
+Πειραματισμοί με midi πληροφορία και ξυλουργική.
 
 ![](images/image8.jpg)
 
@@ -51,8 +49,8 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="images/image6.png"/></td>
-    <td valign="top"><img src="images/image7.png"/></td>
+    <td valign="top"><img style="max-height=500" src="images/image6.png"/></td>
+    <td valign="top"><img style="max-height=500" src="images/image7.png"/></td>
   </tr>
 </table>
 
