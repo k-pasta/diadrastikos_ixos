@@ -160,7 +160,7 @@ Olivier Verdier. COMMENT FAIRE UN TENON ET UNE MORTAISE AU CISEAU À BOIS. Πρ�
 
 #### Κώδικας Arduino
 
-```
+```cpp 
 #include <Arduino.h>
 
 int val0 = 0; //Our initial pot values. We need one for the first value and a second to test if there has been a change made. This needs to be done for all 3 pots.
@@ -249,7 +249,7 @@ void MIDImessage(byte command, byte data1, byte data2) //pass values out through
 
 #### Κώδικας Supercollider
 
-```
+```smalltalk
 (
 
 MIDIClient.init; //initialize midi
