@@ -382,7 +382,7 @@ MIDIdef.cc(\\slider, {
 
 * * *
 
-[^1] Αναλυτικά:
+[^1]: Αναλυτικά:
 
 Tschudi-Madsen, Stephan. The Art Nouveau Style: a comprehensive guide with 264 illustrations. Courier Corporation, 2002.
 
